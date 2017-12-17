@@ -44,7 +44,7 @@ def calc_hex_distance(x, y):
     return hex_distance
 
 
-def challenge1():
+def challenge1And2():
     x = (MATRIX_GRID_SIZE / 2) + 1.5
     y = (MATRIX_GRID_SIZE / 2) + 1
     max_hex_distance = 0
@@ -63,4 +63,4 @@ def challenge1():
         print('Max hex distance: ' + str(max_hex_distance))
 
 
-challenge1()
+challenge1And2()
